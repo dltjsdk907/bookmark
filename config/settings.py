@@ -31,13 +31,13 @@ ALLOWED_HOSTS = ['*']  # 이 부분은 반드시 지정해야 배포 가능함!!
 # Application definition
 
 INSTALLED_APPS = [
+    'bookmark',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bookmark',
 ]
 
 MIDDLEWARE = [
